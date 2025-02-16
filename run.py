@@ -7,4 +7,4 @@ app = create_app()
 CORS(app)  # Apply CORS to the app
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="131.221.33.51",debug=True)
