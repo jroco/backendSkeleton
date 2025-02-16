@@ -72,7 +72,7 @@ def get_orders():
 def get_order(id):
     return jsonify({"message": f"Detalle de la orden {id}"})
 
-# server.py
+# run.py
 from app import create_app
 
 app = create_app()
